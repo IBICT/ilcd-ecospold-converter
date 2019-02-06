@@ -10,7 +10,8 @@ USAGE
 
 Instantiate the Converter class with its default constructor:
 
-```Converter conv = new Converter("/path/to/converter/workspace");
+```
+Converter conv = new Converter("/path/to/converter/workspace");
 conv.converter(spoldFile, outputILCDfile);
 ```
 
