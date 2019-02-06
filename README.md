@@ -10,9 +10,9 @@ USAGE
 
 Instantiate the Converter class with its default constructor:
 
-``Converter conv = new Converter("/path/to/converter/workspace")
-conv.converter(spoldFile, outputILCDfile)
-``
+```Converter conv = new Converter("/path/to/converter/workspace");
+conv.converter(spoldFile, outputILCDfile);
+```
 
 You must have and appropriate workspace in `/path/to/converter/workspace`. An
 example is provided in `/example/workspace`.  This workspace must have the following structure:
@@ -30,6 +30,6 @@ by openLCA export. For more information, see
 
 License
 -------
-This source code licensed under the [Mozilla Public License, v.
+This source code is licensed under the [Mozilla Public License, v.
 2.0](http://www.mozilla.org/MPL/2.0/).  Please see the LICENSE.txt file in the
 root directory of the source code.
